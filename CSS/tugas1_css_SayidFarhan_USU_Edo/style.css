@@ -1,0 +1,93 @@
+body{
+  font-family: 'Quicksand';
+  color: white;
+}
+
+hr{
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 0 80px
+}
+
+p img{
+  border-radius: 10%;
+  height: 250px;
+  width: 200px;
+}
+
+p, h2{
+  text-align: center;
+  margin: 30px 150px;
+}
+
+fieldset{
+  border-radius: 10px;  
+  -webkit-border-radius: 10px;
+  -moz-border-radius:10px;  
+}
+
+legend{
+  font: bolder 20px 'Quicksand';
+  text-align: center;
+}
+
+table{
+  width: 100%;
+  border-spacing: 20px;
+}
+
+table td{
+  vertical-align: top;
+  background-color: grey;
+  width: 33%;
+  border-radius: 10px;
+  background-color:rgba(128, 128, 128, 0.3)
+}
+
+table td:hover{
+  background-color:rgba(128, 128, 128, 0.9)
+}
+
+ol{
+  font: bold 17px 'Quicksand';
+  list-style: inside upper-alpha;
+  text-align: center;
+  padding-left: 0;
+}
+
+ul{
+  margin-left: -15px;
+  list-style-type: disc;
+  font: normal 15px 'Quicksand';
+  text-align: left;
+}
+
+ul li{
+  margin-top: 15px;
+}
+
+ul span{
+  font-weight: bold;
+  margin-left: 1.5em;
+}
+
+ul span span{
+  font-weight: 100;
+  font-style: italic;
+  font-size: 14px;
+  margin: 0
+}
+
+td:nth-child(2) > ol > ul{
+  width: 25%;
+  margin: auto;
+  margin-top: 60px;
+  padding-left: unset;
+}
+
+td:nth-child(3) > ol > ul{
+  width: 30%;
+  margin: auto;
+  margin-top: 70px;
+  padding-left: unset;
+}

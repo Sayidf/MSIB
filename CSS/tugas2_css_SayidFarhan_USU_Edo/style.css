@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Quicksand';
+}
+
+.header {
+  color: white;
+  background-image: -webkit-linear-gradient(135deg,#ff1053 0%,#3452ff 100%);
+  background-attachment: fixed;
+  padding: 60px;
+  text-align: center;
+  
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #444444;;
+  width: 13%;
+  margin: auto;
+  border-radius: 0 0 15px 15px;
+}
+
+.topnav a.active{
+  width:60px;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+}
+
+svg:hover path {
+  fill: black;
+  transition: all ease 0.3s;
+}
+
+a.active{
+  background-color: grey;
+  fill: white;
+}
+
+.topnav a {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  width: 40%;
+  transition: all ease 0.3s;
+}
+
+.topnav a:hover {
+  background-color: whitesmoke;
+  color: grey;
+  fill: black;
+  transition: all ease 0.3s;
+  font-weight: bold;
+}
+
+.column {
+  padding: 0px 50px 50px 50px;
+  margin: 30px;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.column.side {
+  width: 25%;
+  padding: 30px;
+}
+
+.column.middle {
+  width: 50%;
+  padding: 0px 10px 50px 0px;
+}
+
+.column.middle h2{
+  width: fit-content;
+  padding: 10px 10px 10px 10px;
+  margin:  0px auto 30px auto ;
+  background-color: white;
+  color: red;
+  border-radius: 0 0 15px 15px;
+}
+
+.footer {
+  color: white;
+  background-color: #444444;
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.middle.card{
+  width: 75%;
+}
+
+.side .card {
+  width: 100%;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Quicksand';
+  margin-bottom: 20px;
+  transition: all ease 0.3s;
+}
+
+.btn:hover{
+  transition: all ease 0.3s;
+  background-color: white;
+  color: black;
+}
+
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 50px 0 50px;
+  cursor: pointer;
+}
+
+.mb-30{
+  margin-bottom: 30px;
+}

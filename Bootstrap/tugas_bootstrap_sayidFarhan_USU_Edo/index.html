@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tugas 1 CSS</title>
+		<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <link href='asset/css/bootstrap.min.css' rel='stylesheet'>
+		<link href='asset/css/style.css' rel='stylesheet'>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> -->
+		<script src="asset/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+		<div id="carouselHeader" class="carousel slide" data-bs-ride="true">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#carouselHeader" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#carouselHeader" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#carouselHeader" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			</div>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="d-flex justify-content-center align-items-center parallax" style="background-image:url('https://picsum.photos/id/1051/1920/350/?blur=1');"></div>
+				</div>
+				<div class="carousel-item">
+					<div class="d-flex justify-content-center align-items-center parallax" style="background-image:url('https://picsum.photos/id/213/1920/350/?blur=1');"></div>
+				</div>
+				<div class="carousel-item">
+					<div class="d-flex justify-content-center align-items-center parallax" style="background-image:url('https://picsum.photos/id/16/1920/350/?blur=1');"></div>
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselHeader" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselHeader" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+		<div class="row gx-0">
+			<div class="col-md-12">
+				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+					<div class="container-fluid">
+						<div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+							<ul class="navbar-nav me-auto">
+								<li class="nav-item active">
+									<a class="nav-link" href="#">Home</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Docs</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Pages</a>
+								</li>
+							</ul>
+						</div>
+						<div class="mx-auto order-0">
+							<img class="navbar-brand mx-auto" href="#"><img src="https://lh3.googleusercontent.com/qt1jt2ebGbNPSmlCuw66bD-f7Z4Ff-mJYIgbsZ3voOxI8hrdMKLB_ECEy8MWh4ghzfIUj9wXJ8zUARSHmiuWUtL5BzFn-j1kR2jKsKjVMosInwedTfo6X-JKjPLFrycBlcHRvkvtk2XHxvnwb_hpR8eYStQPa5SKOhYD0iZ25KHCFXFQtX08Kz1bAWExP8T4f7ADFLR-2T8y--uB41ubH3XhS4rqy7s4yLTUrbYpQumNyYfH2ROjQqXkQIF88zXc4LMyOTj-RIuYLwMPHTu5Sfip8T9Fi66wtg0It0RlbEAGAnGX3gsH5C1xCo2UKPNpmNWq85isFKnPpoO38RPPkzuyu1qVVKZJkVap5m-afL-vMltKHaI1ZW5ZbMLlk-dOdNvoIF9f09LmKfdqbc2JRpoHRlNSuXveWZkxuUmY19XjEPup7midA0eSoLyAoCYvufoNyZKTWngddEIarX6UhXHWpSovh57KW4Ag8zMdJ4VOAAPTec75z-sXuQgzute1YVyYDIhuNPv4rnPmi2csrb5GMdXVxGK4XlVIkcehTk1kC6xtjaoKTc2bQHvwz6ohrMjuxLrpkNx7TUhmG2qAgiz9rKiMK9tv9AncK7qjRFMymRMJioLiuKqtHoBb2ZkXfRe_gkyU_-juWj6yjmAlDnWR8i2rdM-4kqWYRoOtGZ_b_zeFbJ51QTr9TcDe-stz7InKUEfstaomR9pyOELhIWaXBdXqon5Tz9Wcf70sItLVrH4wJRjYfudFWIJANA=w500-h153-no?authuser=0" width="180"></a>
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+						</div>
+						<div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+							<ul class="navbar-nav ms-auto">
+								<li class="nav-item">
+									<a class="nav-link mt-50 ms-1" href="#"><i class="bi bi-search" style="font-size: 0.7rem"></i></a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link mt-50 ms-1" href="#"><i class="bi bi-list" style="font-size: 1rem"></i></a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link mt-50 ms-1" href="#"><i class="bi bi-person-circle text-dark" style="font-size: 2rem"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+		<div class="row gx-0">
+			<div class="col-md-3 p-5">
+			<h3 class="text-center quicksand">Featured client stories</h3>
+			<div class="card mt-3">
+				<div class="card-body">
+					<h5 class="card-title"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></h5>
+					<p class="card-text py-2">Wave impressed me with amazing customer experience and effortless migration from my previous hosting provider.</p>
+				</div>
+				<div class="card-footer d-flex py-3">
+					<img class="rounded-circle" src="https://decisionsystemsgroup.github.io/workshop-html/img/john-doe.jpg" alt="John Doe" width="64" height="64">
+					<div class="position-relative ps-3 w-100">
+						<div class="position-absolute">
+							<h4 class="mb-1">John Doe</h4>
+							<p>Brand Designer</p>
+						</div>
+					</div>
+				</div>		
+			</div>
+		</div>
+			<div class="col-md-6">
+				<div class="jumbotron text-center">
+					<p class="lead">Summer Sale Offer</p>
+					<h1 class="display-6 fw-bold text-uppercase">Savings to Set Your Website in Motion</h1>
+					<div class="card-price">
+            <h1>
+              <sup>RP</sup>
+              40K
+              <small>month</small>
+            </h1>
+        	</div>
+					<p class="lead">Make moves with a free domain .id and SSL included with a yearly subscription.</p>
+					<hr class="my-4">
+					<a class="btn btn-lg btn-offer" href="#" role="button">Grab Offer Now</a>
+				</div>
+			</div>
+			<div class="col-md-3 p-5">
+				<h3 class="text-center quicksand">Documentation</h3>
+				<div class="card mt-3">
+					<iframe height="210px" src="https://www.youtube.com/embed/GtL1huin9EE?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>
+				</div>	
+			</div>
+		</div>
+
+		<div class="row gx-0">
+			<div class="col-md-12">
+				<footer>
+					<div class="container">
+						<div class="row mb-1">
+							<div class="col-md-4 footer-column">
+								<ul class="nav flex-column">
+									<li class="nav-item">
+										<span class="footer-title">Quick Links</span>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Home</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">My account</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">FAQs</a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-md-4 footer-column">
+								<ul class="nav flex-column">
+									<li class="nav-item">
+										<span class="footer-title">Company</span>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">About</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Privacy Policy</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Terms of Use</a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-md-4 footer-column">
+								<ul class="nav flex-column">
+									<li class="nav-item">
+										<span class="footer-title">Contact & Support</span>
+									</li>
+									<li class="nav-item">
+										<span class="nav-link"><i class="bi bi-telephone-fill"></i>+62 888-8888-8888</span>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#"><i class="bi bi-envelope-fill"></i>Contact us</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#"><i class="bi bi-star-fill"></i>Give feedback</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+				
+						<div class="text-center"><i class="bi bi-three-dots"></i></div>
+						
+						<div class="row text-center mt-3">
+							<div class="col-md-12 box">
+								<ul class="list-inline social-buttons">
+									<li class="list-inline-item">
+										<a href="#">
+										<i class="bi bi-twitter"></i>
+									</a>
+									</li>
+									<li class="list-inline-item">
+										<a href="#">
+										<i class="bi bi-facebook"></i>
+									</a>
+									</li>
+									<li class="list-inline-item">
+										<a href="#">
+										<i class="bi bi-linkedin"></i>
+									</a>
+									</li>
+								</ul>
+							</div>
+							
+							<div class="col-md-12 mt-3">
+								<span class="copyright quick-links">Copyright &copy; 2022 | Designed By: Sayid Farhan</span>
+							</div>
+						</div>
+					</div>
+				</footer>
+			</div>
+		</div>
+	  <div>
+	</body>
+</html>
